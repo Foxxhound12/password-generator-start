@@ -28,7 +28,7 @@ chosen_numbers = []
 for number in range(nr_numbers):
     n = random.randint(0, len(numbers)-1)
     chosen_numbers.append(numbers[n])
-sum_char = nr_letters+nr_symbols+nr_numbers
+
 password = (chosen_letters+chosen_symbols+chosen_numbers) #letters = 0, symbols = 1, numbers = 2
 #print(password)
 random.shuffle(password)
