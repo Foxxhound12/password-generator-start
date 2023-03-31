@@ -30,7 +30,7 @@ for number in range(nr_numbers):
     chosen_numbers.append(numbers[n])
 sum_char = nr_letters+nr_symbols+nr_numbers
 password = (chosen_letters+chosen_symbols+chosen_numbers) #letters = 0, symbols = 1, numbers = 2
-print(password)
+#print(password)
 random.shuffle(password)
 #empty_string = ""   #kann auch jeglicher anderer string sein, muss nicht leer sein. der angegebene string verbindet die Listenobjekte. Wäre er zb. P oder ein Leerzeichen wäre es 0P1,...oder 0 1  (Index der Liste, das auf entsprechendes Objekt in der Liste verweist)
 #final_password=empty_string.join(password)  #oder wie unten in einer Zeile: str() kreiert einen leeren String
